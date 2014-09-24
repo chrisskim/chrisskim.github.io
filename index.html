@@ -1,0 +1,82 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>
+<meta charset="utf-8" />  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<title>Chris Kim - Design</title>  
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div class="header">
+			<div class="logo">
+				<a class="logo-small" href="index.html"><img src="assets/logo.svg"/></a>
+				<a class="logo-large" href="index.html"><img src="assets/logo_horizontal.svg" /></a>
+			</div>
+			<div class="nav-bar">
+				<ul class="nav">
+					<li class="nav-link"><a href="about.html">About</a></li>
+					<li class="nav-link"><a href="work.html">Work</a></li>
+					<li class="nav-link"><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<div class="socials">
+				<a href="https://www.behance.net/chrisowon"target="_blank"><i class="fa fa-behance"></i></a> |
+				<a href="www.linkedin.com/pub/chris-kim/30/390/259/" target="_blank"><i class="fa fa-linkedin"></i></a>
+			</div>
+		</div>
+		<div class="splash-img">
+			<img class="splash" src="assets/splash.jpg" />
+		</div>
+		<div class="content">
+			<h2 class="content-header">RECENT PROJECTS</h2>
+			<hr class="content-header-line"/>
+			<a href="work/just_lions.html">
+				<div class="project-wrapper" id="project1">	
+					<div id ="project-img1" class="project" style="background-image:url(work/images/Just-Lions2.jpg)"></div>
+					<div class="title" id="title1"><h3>Just Lions</h3></div>
+				</div>
+			</a>
+			<a href="work/alameda.html">
+				<div class="project-wrapper" id="project2">
+					<div id ="project-img2" class="project" style="background-image:url(work/images/alameda_poster.jpg)"></div>
+					<div class="title" id="title2"><h3>Alameda</h3></div>
+				</div>
+			</a>
+		</div>
+		<div class="footer">
+			<a href="mailto:chrisowon@gmail.com">chrisowon@gmail.com</a> | <a href="https://www.behance.net/chrisowon" target="_blank"><i class="fa fa-behance"></i></a> | <a href="www.linkedin.com/pub/chris-kim/30/390/259/" target="_blank"><i class="fa fa-linkedin"></i></a>
+		</div>
+	</div>
+	<script>
+		$(document).ready(function() {
+		
+			$('#project1').hover(
+			function () { 
+				$( '#title1' ).addClass( "show" );
+				$( '#project-img1' ).addClass(" fade" );
+				} , 
+			function () { 
+				$( '#title1' ).removeClass( "show" );
+				$( '#project-img1' ).removeClass(" fade" );
+				}
+			);
+			
+			$('#project2').hover(
+			function () { 
+				$( '#title2' ).addClass( "show" );
+				$( '#project-img2' ).addClass(" fade" );		
+				} , 
+			function () { 
+				$( '#title2' ).removeClass( "show" );
+				$( '#project-img2' ).removeClass(" fade" );
+				}
+			)
+		}
+		);
+	</script>
+</body>
+</html>
