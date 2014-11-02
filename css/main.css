@@ -163,18 +163,27 @@ padding-bottom:20px
 }
 
 .project-title {
-float:left;
-display:inline-block;
 max-width:350px;
 }
 
+.project-subtitle {
+float:left;
+margin-top:-30px;
+line-height:20px;
+min-width:400px;
+max-width:450px;
+font-family: 'Open Sans', sans-serif;
+font-size:10pt;
+}
+
 a.back {
-float:right;
-color: #000;
+color: #333;
 font-weight: 700;
 text-transform:	uppercase;
-display:inline-block;
-padding:28px 0;
+}
+
+a.back:hover {
+color:#999;
 }
 
 .splash {
@@ -266,21 +275,10 @@ text-decoration:none;
 @media screen and (min-width: 280px) {
 
 a.back {
-visibility:hidden;
-}
-
-a.back:hover {
-color:#999;
-}
-
-a.back:after {
-content:'BACK';
-visibility: visible;
-float:right;
-position: absolute;
-padding: 5px;
-top: 205px;
-right:20px;
+margin-top:0px;
+padding:0px 0 30px 0;
+float:left;
+display:block;
 }
 
 .socials, .splash{
@@ -312,6 +310,16 @@ max-width:50%;
 padding: 10px;
 }
 
+.project-subtitle {
+float:left;
+margin-top:-30px;
+line-height:20px;
+min-width:400px;
+max-width:450px;
+font-family: 'Open Sans', sans-serif;
+font-size:10pt;
+}
+
 .content-header {
 text-align:center;
 }
@@ -334,20 +342,6 @@ margin: 0 auto;
 
 @media screen and (min-width: 480px) {
 
-a.back {
-visibility:visible;
-}
-
-a.back:after {
-content:'BACK';
-visibility: hidden;
-float:right;
-position: absolute;
-padding: 5px;
-top: 205px;
-right:20px;
-}
-
 .logo  {
 padding: 20px 0;
 }
@@ -366,7 +360,10 @@ max-width:33.33%;
 
 @media screen and (min-width: 768px) {
 
-
+a.back {
+float:right;
+padding:28px 0;
+}
 .header {
 padding-bottom:0px;
 }
@@ -435,6 +432,10 @@ color: #2BC0F1;
 border-bottom: 1px solid #2BC0F1;
 }
 
+.project-title {
+float:left;
+}
+
 .project-wrapper{
 display:inline-block;
 width:49%;
@@ -448,16 +449,6 @@ background-size:100%;
 max-width:25%;
 }
 
-
-
-}
-
-@media screen and (min-width: 900px) {
-
-
-}
-
-@media screen and (min-width: 1200px) {
 
 
 }
