@@ -180,6 +180,7 @@ a.back {
 color: #333;
 font-weight: 700;
 text-transform:	uppercase;
+padding-bottom:10px;
 }
 
 a.back:hover {
