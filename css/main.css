@@ -66,6 +66,12 @@ bottom:0;
 left:0;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /*Header */
 
 .header {
@@ -155,6 +161,26 @@ font-family: 'Open Sans', sans-serif;
 font-style:italic;
 line-height:150%;
 list-style-type: none;
+}
+
+.resume h3 {
+font-size: 18px;
+text-transform: uppercase;
+padding-bottom:10px;
+}
+
+.resume p {
+font-size:14px;
+}
+
+.resume ul {
+font-style:normal;  
+list-style-type:circle;
+padding-left:18px;
+line-height:140%;
+}
+.resume ul li {
+padding-bottom:12px;
 }
 
 .content p {
@@ -335,7 +361,7 @@ text-transform:uppercase;
 }
 
 .about-profile {
-max-width:88%;
+max-width:90%;
 margin: 0 auto;
 }
 
@@ -450,6 +476,16 @@ background-size:100%;
 max-width:25%;
 }
 
-
+.about-profile {
+max-width:700px !important;
+}
+    
+.one-half {
+width:50%;
+display:block;
+float:left;
+padding:10px;
+}
+    
 
 }
