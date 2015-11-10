@@ -156,6 +156,11 @@ margin-bottom:20px;
 margin:0;
 }
 
+.content-projects {
+max-width:750px;
+margin:0 auto;
+}
+
 .content ul {
 font-family: 'Open Sans', sans-serif;
 font-style:italic;
