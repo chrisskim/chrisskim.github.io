@@ -300,14 +300,14 @@ opacity: .6;
 /*------Footer------*/
 
 .footer {
-background-color:#111;
-color: #AEDEE0;
+color: #444;
 text-transform: uppercase;
 font-family: 'Maven Pro', sans-serif;
 text-align:center;
 font-size: 14px;
 padding: 25px;
 }
+
 .footer a {
 color: #AEDEE0;
 text-decoration:none;
