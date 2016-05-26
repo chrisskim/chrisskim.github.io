@@ -290,7 +290,6 @@ float: none;
 .thumbnail {
 transition: opacity 0.2s ease;
 opacity: 1;
-box-shadow:1px 1px 3px rgba(0,0,0,.3);
 }
 
 .thumbnail:hover {
@@ -483,8 +482,13 @@ width:49%;
 background-size:100%;
 }
 
+.gallery {
+padding:2em 0;
+}
+
 .thumbnail {
 max-width:24%;
+margin:1.5em 0;
 }
 
 .about-profile {
