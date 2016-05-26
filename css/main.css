@@ -145,7 +145,7 @@ margin-top:100px;
 color: #222;
 padding-top: 10px;
 padding-bottom:80px;
-max-width:750px;
+max-width:980px;
 }
 
 .content-header{ 
@@ -281,7 +281,7 @@ transition: opacity .25s ease-in-out;
 
 /*-----Gallery-------*/
 .gallery {
-max-width:800px;
+width:100%;
 margin: 0 auto;
 display:table;
 float: none;
@@ -471,6 +471,10 @@ margin: 0 2px;
 .socials i:hover {
 color: #2BC0F1;
 border-bottom: 1px solid #2BC0F1;
+}
+
+.content {
+padding:0;
 }
 
 .project-wrapper{
